@@ -1,14 +1,10 @@
-# Python
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
 *.pyc
 *.pdb
-*.egg-info/
-*.egg
-*.env
-.env
 
 # Virtual environments
 venv/
@@ -16,23 +12,16 @@ ENV/
 env/
 .venv/
 
-# VS Code
-.vscode/
-
-# Alembic
-alembic/versions/
-
 # OS files
 .DS_Store
 Thumbs.db
 
-# Docker
-*.log
+# VS Code
+.vscode/
 
-# Byte-compiled / optimized / DLL files
-*.so
-*.dll
-*.dylib
+# Git
+.git/
+.gitignore
 
 # Test & coverage
 htmlcov/
@@ -41,3 +30,9 @@ htmlcov/
 .nox/
 .cache/
 pytest_cache/
+
+# Alembic migration history
+alembic/versions/
+
+# Logs
+*.log
